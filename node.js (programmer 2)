@@ -1,18 +1,1 @@
 function showContent(type) {
-    let contentDiv = document.getElementById("content");
-    contentDiv.innerHTML = ""; // Clear previous content
-
-    if (type === "videos") {rename solar.js script.js
-
-        let videos = ["Math Video 1", "Science Video 1", "English Video 1"];
-        contentDiv.innerHTML = "<h2>📺 Class 9 Video Lessons</h2>";
-        videos.forEach(video => {
-            contentDiv.innerHTML += `<p>▶ ${video}</p>`;
-        });
-    } else if (type === "notes") {
-        let notes = ["Math Notes", "Science Notes", "English Notes"];
-        contentDiv.innerHTML = "<h2>📖 Class 9 Notes</h2>";
-        notes.forEach(note => {
-            contentDiv.innerHTML += `<p>📄 ${note}</p>`;
-        });
-    }
