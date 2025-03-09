@@ -1,4 +1,4 @@
-from .tkinder import window, run
+from .app import window, run
 
 class Application:
     def __init__(self) -> None:
