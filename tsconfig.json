@@ -3,7 +3,12 @@
   "compilerOptions": {
     "strict": true,
     "paths": {
-      "@/*": ["./*"]
+      "@/*": [
+        "./*"
+      ],
+      "tailwind.config": [
+        "./tailwind.config.js"
+      ]
     }
   },
   "include": [
@@ -13,6 +18,7 @@
     "expo-env.d.ts",
     "nativewind-env.d.ts",
     "babel.config.js",
-    "metro.config.js"
+    "metro.config.js",
+    "tailwind.config.js"
   ]
 }
